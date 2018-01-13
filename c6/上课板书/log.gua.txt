@@ -1,0 +1,600 @@
+09:05:52 start at :3000
+09:05:56 完整请求
+09:05:56 GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:05:56 请求结束
+09:05:56 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:05:56 path and query /register {}
+09:05:56 完整响应
+09:05:56 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+09:05:56 响应结束
+09:05:59 完整请求
+09:05:59 POST /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 31
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+username=asdasd&password=asdasd
+09:05:59 请求结束
+09:05:59 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:05:59 path and query /register {}
+09:05:59 完整响应
+09:05:59 HTTP/1.1 302 OK
+Content-Type: text/html
+Location: /login
+
+
+09:05:59 响应结束
+09:05:59 完整请求
+09:05:59 GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:05:59 请求结束
+09:05:59 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:05:59 path and query /login {}
+09:05:59 login, cookies {'Webstorm-a327319a': '52338c5f-b2b0-449a-b1d2-d8719535e493'}
+09:05:59 完整响应
+09:05:59 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+09:05:59 响应结束
+09:07:36 完整请求
+09:07:36 
+09:07:36 请求结束
+09:07:36 完整请求
+09:07:36 GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:07:36 请求结束
+09:07:36 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:07:36 path and query /register {}
+09:07:36 完整响应
+09:07:36 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+09:07:36 响应结束
+09:07:40 完整请求
+09:07:40 POST /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 14
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+username=asdad
+09:07:40 请求结束
+09:07:40 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:07:40 path and query /register {}
+09:07:40 完整响应
+09:07:40 HTTP/1.1 302 OK
+Content-Type: text/html
+Location: /register
+
+
+09:07:40 响应结束
+09:07:40 完整请求
+09:07:40 GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:07:40 请求结束
+09:07:40 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:07:40 path and query /register {}
+09:07:40 完整响应
+09:07:40 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+09:07:40 响应结束
+09:08:55 完整请求
+09:08:55 GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:08:55 请求结束
+09:08:55 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:08:55 path and query /register {}
+09:08:55 完整响应
+09:08:55 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <input type="text" name="xxx" placeholder="请输入密码">
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+09:08:55 响应结束
+09:09:03 完整请求
+09:09:03 POST /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 36
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+username=asdw&password=asdq&xxx=asds
+09:09:03 请求结束
+09:09:03 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:09:03 path and query /register {}
+09:09:03 完整响应
+09:09:03 HTTP/1.1 302 OK
+Content-Type: text/html
+Location: /login
+
+
+09:09:03 响应结束
+09:09:03 完整请求
+09:09:03 GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:09:03 请求结束
+09:09:03 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:09:03 path and query /login {}
+09:09:03 login, cookies {'Webstorm-a327319a': '52338c5f-b2b0-449a-b1d2-d8719535e493'}
+09:09:03 完整响应
+09:09:03 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+09:09:03 响应结束
+09:09:21 完整请求
+09:09:21 
+09:09:21 请求结束
+09:09:21 完整请求
+09:09:21 GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:09:21 请求结束
+09:09:21 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:09:21 path and query /login {}
+09:09:21 login, cookies {'Webstorm-a327319a': '52338c5f-b2b0-449a-b1d2-d8719535e493'}
+09:09:21 完整响应
+09:09:21 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+09:09:21 响应结束
+09:09:24 完整请求
+09:09:24 GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:09:24 请求结束
+09:09:24 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:09:24 path and query /register {}
+09:09:24 完整响应
+09:09:24 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+09:09:24 响应结束
+09:22:10 start at :3000
+09:22:21 完整请求
+09:22:21 GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+
+09:22:21 请求结束
+09:22:21 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:22:21 path and query /login {}
+09:22:21 login, cookies {'Webstorm-a327319a': '52338c5f-b2b0-449a-b1d2-d8719535e493'}
+09:22:21 完整响应
+09:22:21 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+09:22:21 响应结束
+09:22:25 完整请求
+09:22:25 POST /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493
+
+username=gua&password=123
+09:22:25 请求结束
+09:22:25 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493']
+09:22:25 path and query /login {}
+09:22:25 login, cookies {'Webstorm-a327319a': '52338c5f-b2b0-449a-b1d2-d8719535e493'}
+09:22:25 kwargs,  {'username': 'gua'} <class 'dict'>
+09:22:25 kwargs,  {'username': 'gua'} <class 'dict'>
+09:22:25 headers response {'Set-Cookie': 'user=3lsd8sb9e3dcw8jd'}
+09:22:25 完整响应
+09:22:25 HTTP/1.1 302 OK
+Content-Type: text/html
+Set-Cookie: user=3lsd8sb9e3dcw8jd
+Location: /
+
+
+09:22:25 响应结束
+09:22:25 完整请求
+09:22:25 GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493; user=3lsd8sb9e3dcw8jd
+
+
+09:22:25 请求结束
+09:22:25 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493', 'user=3lsd8sb9e3dcw8jd']
+09:22:25 path and query / {}
+09:22:25 完整响应
+09:22:25 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple todo</title>
+</head>
+<body>
+    <form action="/add" method="post">
+        <input name="task">
+        <button>add todo</button>
+    </form>
+
+    
+        <div>
+            3 : asdasd  @ 11:51:13
+            <a href="/edit?id=3">edit</a>
+            <a href="/delete?id=3">删除</a>
+        </div>
+    
+        <div>
+            4 : asd  @ 18:41:57
+            <a href="/edit?id=4">edit</a>
+            <a href="/delete?id=4">删除</a>
+        </div>
+    
+        <div>
+            5 : asdsda  @ 18:58:28
+            <a href="/edit?id=5">edit</a>
+            <a href="/delete?id=5">删除</a>
+        </div>
+    
+        <div>
+            6 : asdsad  @ 18:58:31
+            <a href="/edit?id=6">edit</a>
+            <a href="/delete?id=6">删除</a>
+        </div>
+    
+</body>
+</html>
+09:22:25 响应结束
+09:22:27 完整请求
+09:22:27 GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493; user=3lsd8sb9e3dcw8jd
+
+
+09:22:27 请求结束
+09:22:27 cookie ['Webstorm-a327319a=52338c5f-b2b0-449a-b1d2-d8719535e493', 'user=3lsd8sb9e3dcw8jd']
+09:22:27 path and query / {}
+09:22:27 完整响应
+09:22:27 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple todo</title>
+</head>
+<body>
+    <form action="/add" method="post">
+        <input name="task">
+        <button>add todo</button>
+    </form>
+
+    
+        <div>
+            3 : asdasd  @ 11:51:13
+            <a href="/edit?id=3">edit</a>
+            <a href="/delete?id=3">删除</a>
+        </div>
+    
+        <div>
+            4 : asd  @ 18:41:57
+            <a href="/edit?id=4">edit</a>
+            <a href="/delete?id=4">删除</a>
+        </div>
+    
+        <div>
+            5 : asdsda  @ 18:58:28
+            <a href="/edit?id=5">edit</a>
+            <a href="/delete?id=5">删除</a>
+        </div>
+    
+        <div>
+            6 : asdsad  @ 18:58:31
+            <a href="/edit?id=6">edit</a>
+            <a href="/delete?id=6">删除</a>
+        </div>
+    
+</body>
+</html>
+09:22:27 响应结束

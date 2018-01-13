@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>管理用户</h1>
+    <form action="/admin/user/update" method="post">
+        <input type="text" name="id" placeholder="请输入id">
+        <br>
+        <input type="text" name="password" placeholder="请输入要修改的密码">
+        <br>
+        <button type="submit">确认修改</button>
+    </form>
+    {% for user in user_list %}
+        <h3>id: {{  user.id  }} username: {{  user.username  }} password: {{  user.password }}</h3>
+    {% endfor %}
+
+{#    <h3>{{result}}</h3>#}
+</body>
+</html>
